@@ -5,3 +5,13 @@
 **/settings/
 vis/
 *.gch
+*.out
+*.exe
+*.o
+*.obj
+*.dSYM/
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.idea/
