@@ -1,17 +1,56 @@
 **/in/
 **/out/
+**/in.txt
+**/out.txt
+**/input.txt
+**/output.txt
 **/tools/
+!ac-library-master/tools/
+!ac-library-master/tools/**
 **/a.out
 **/settings/
 vis/
+
+# Local environment / secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+client_secret*.json
+credentials*.json
+token*.json
+oauth*.json
+
+# C / C++ build outputs
 *.gch
 *.out
 *.exe
 *.o
 *.obj
+*.so
+*.dylib
 *.dSYM/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+
+# Python cache / local environments
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# OS / editor files
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/
